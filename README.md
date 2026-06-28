@@ -212,63 +212,222 @@ The following table summarizes the performance of the primary models evaluated d
 The experimental results demonstrate that the **CNN** achieved the highest overall classification accuracy among the evaluated architectures. The **CRNN (CNN + BiLSTM)** effectively combines convolutional feature extraction with bidirectional temporal sequence learning, making it the strongest hybrid architecture explored in this study. Together, these two models represent the final implementations of this research project.
 
 ---
-
 # 📊 Experimental Results
 
-The following visualizations summarize the training process and evaluation results of the primary models investigated in this project.
-
-## 🏆 CNN – Highest Accuracy Model
-
-### 📈 Accuracy Curve
-
-![CNN Accuracy](assets/cnn_accuracy.png)
-
-### 📉 Loss Curve
-
-![CNN Loss](assets/cnn_loss.png)
-
-### 🎯 Confusion Matrix
-
-![CNN Confusion Matrix](assets/cnn_confusion_matrix.png)
+This section presents the visual evaluation of the primary models investigated during this study. The results include learning curves and confusion matrices that illustrate model convergence, classification performance, and comparative behavior across different architectures.
 
 ---
 
-## ⭐ CRNN (CNN + BiLSTM) – Best Hybrid Model
+## 🏆 CNN – Highest Accuracy Model (82.60%)
+
+The CNN achieved the highest classification accuracy among all evaluated models while maintaining stable learning behavior and strong generalization capability.
 
 ### 📈 Accuracy Curve
 
-![CRNN Accuracy](assets/crnn_accuracy.png)
+(image)
 
 ### 📉 Loss Curve
 
-![CRNN Loss](assets/crnn_loss.png)
+(image)
 
 ### 🎯 Confusion Matrix
 
-![CRNN Confusion Matrix](assets/crnn_confusion_matrix.png)
+(image)
+
+---
+
+## ⭐ CRNN (CNN + BiLSTM) – Best Hybrid Model (80.56%)
+
+The CRNN combines convolutional feature extraction with bidirectional temporal sequence learning. It demonstrated strong representation learning and competitive classification performance while effectively modeling temporal dependencies in speech signals.
+
+### 📈 Accuracy Curve
+
+(image)
+
+### 📉 Loss Curve
+
+(image)
+
+### 🎯 Confusion Matrix
+
+(image)
 
 ---
 
 ## 🔹 LSTM Baseline
 
-### 📈 Accuracy Curve
+The LSTM model served as a sequential deep learning baseline for comparison.
 
-![LSTM Accuracy](assets/lstm_accuracy.png)
-
-### 📉 Loss Curve
-
-![LSTM Loss](assets/lstm_loss.png)
-
-### 🎯 Confusion Matrix
-
-![LSTM Confusion Matrix](assets/lstm_confusion_matrix.png)
+(images)
 
 ---
 
 ## 🔹 SVM Baseline
 
-### 🎯 Confusion Matrix
+The SVM model represents the traditional machine learning baseline evaluated in this project.
 
-![SVM Confusion Matrix](assets/svm_confusion_matrix.png)
+(confusion matrix)
 
-These visualizations illustrate the learning behavior, convergence characteristics, and classification performance of the evaluated models. The comparative results highlight the strengths of each approach and provide a comprehensive understanding of their effectiveness for cross-dataset Speech Emotion Recognition.
+
+---
+
+# ⚙️ Installation
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/Mayureshkore07/Cross-Dataset-Speech-Emotion-Recognition-Using-Deep-Learning-Models-.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Cross-Dataset-Speech-Emotion-Recognition-Using-Deep-Learning-Models-
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 🚀 Getting Started
+
+Follow the workflow below to reproduce the experiments:
+
+### Step 1 — Prepare the Datasets
+
+Download the **RAVDESS** and **CREMA-D** datasets from their official sources and organize them according to the preprocessing notebooks.
+
+---
+
+### Step 2 — Data Preparation
+
+Run the notebooks inside:
+
+```text
+notebooks/
+└── 01_Data_Preparation/
+```
+
+These notebooks perform:
+
+* Audio preprocessing
+* Dataset standardization
+* Feature extraction
+* Data preparation for model training
+
+---
+
+### Step 3 — Research Experiments
+
+Execute the notebooks inside:
+
+```text
+notebooks/
+└── 02_Research_Experiments/
+```
+
+This section includes experiments using:
+
+* CNN
+* CRNN
+* LSTM
+* DANN
+* HuBERT
+* Whisper
+* Wav2Vec
+* Ensemble models
+
+---
+
+### Step 4 — Model Comparison
+
+Run:
+
+```text
+notebooks/
+└── 03_Model_Comparison/
+```
+
+This section compares the performance of the primary models using:
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
+
+---
+
+### Step 5 — Final Models
+
+The final implementations are available in:
+
+```text
+notebooks/
+└── 04_Final_Models/
+```
+
+This folder contains:
+
+* 🏆 CNN – Highest Accuracy Model
+* ⭐ CRNN (CNN + BiLSTM) – Best Hybrid Model
+
+---
+
+# 💻 Technologies Used
+
+| Category                | Technologies         |
+| ----------------------- | -------------------- |
+| Programming Language    | Python               |
+| Development Environment | Jupyter Notebook     |
+| Deep Learning           | TensorFlow, Keras    |
+| Machine Learning        | Scikit-learn         |
+| Audio Processing        | Librosa              |
+| Data Processing         | NumPy, Pandas        |
+| Visualization           | Matplotlib, Seaborn  |
+| Feature Extraction      | Log-Mel Spectrograms |
+| Version Control         | Git & GitHub         |
+
+---
+
+# 📈 Future Improvements
+
+Potential directions for extending this work include:
+
+* Incorporating additional emotional speech datasets
+* Multi-class emotion recognition
+* Real-time Speech Emotion Recognition
+* Transformer-only architectures
+* Cross-language emotion recognition
+* Deployment as a web application
+* Edge AI optimization for embedded devices
+* Explainable AI (XAI) for emotion classification
+* Integration with conversational AI and virtual assistants
+
+---
+
+# 👨‍💻 Author
+
+**Mayuresh Kore**
+
+B.Tech in Computer Science Engineering
+
+Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI.
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to the creators of the **RAVDESS** and **CREMA-D** datasets, along with the open-source Python community for providing the tools and libraries that made this research possible.
+
+---
+
+# 📄 License
+
+This project is released under the **MIT License**.
+
+Feel free to use, modify, and build upon this work while providing appropriate attribution.
