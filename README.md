@@ -10,20 +10,6 @@
 
 > A comprehensive Speech Emotion Recognition (SER) project that investigates multiple Machine Learning, Deep Learning, Domain Adaptation, and Transformer-based architectures using the **RAVDESS** and **CREMA-D** datasets. The project focuses on evaluating different approaches for cross-dataset emotion recognition and identifying robust models for real-world speech emotion classification.
 
----
-
-# 📌 Project Overview
-
-Speech Emotion Recognition (SER) is an important research area in Artificial Intelligence that enables machines to understand human emotions from speech signals. It has applications in healthcare, intelligent virtual assistants, human-computer interaction, education, customer service, mental health monitoring, and conversational AI.
-
-Although many SER models achieve excellent performance on individual datasets, they often fail to generalize when evaluated on unseen datasets due to differences in speakers, recording environments, and speech characteristics.
-
-This project addresses this challenge by performing a comprehensive comparative study using two publicly available emotional speech datasets: **RAVDESS** and **CREMA-D**. Throughout this research, multiple Machine Learning, Deep Learning, Domain Adaptation, and Transformer-based architectures were explored and compared to analyze their effectiveness for cross-dataset Speech Emotion Recognition.
-
-Rather than focusing on a single model, this repository documents the complete research journey—from dataset preparation and feature extraction to extensive experimentation, model comparison, and final implementations.
-
----
-
 ## 📑 Table of Contents
 
 - [Project Overview](#-project-overview)
@@ -42,6 +28,22 @@ Rather than focusing on a single model, this repository documents the complete r
 - [Future Improvements](#-future-improvements)
 - [Author](#-author)
 - [License](#-license)
+
+---
+
+# 📌 Project Overview
+
+Speech Emotion Recognition (SER) is an important research area in Artificial Intelligence that enables machines to understand human emotions from speech signals. It has applications in healthcare, intelligent virtual assistants, human-computer interaction, education, customer service, mental health monitoring, and conversational AI.
+
+Although many SER models achieve excellent performance on individual datasets, they often fail to generalize when evaluated on unseen datasets due to differences in speakers, recording environments, and speech characteristics.
+
+This project addresses this challenge by performing a comprehensive comparative study using two publicly available emotional speech datasets: **RAVDESS** and **CREMA-D**. Throughout this research, multiple Machine Learning, Deep Learning, Domain Adaptation, and Transformer-based architectures were explored and compared to analyze their effectiveness for cross-dataset Speech Emotion Recognition.
+
+Rather than focusing on a single model, this repository documents the complete research journey—from dataset preparation and feature extraction to extensive experimentation, model comparison, and final implementations.
+
+---
+
+
 
 # 🚀 Project Highlights
 
