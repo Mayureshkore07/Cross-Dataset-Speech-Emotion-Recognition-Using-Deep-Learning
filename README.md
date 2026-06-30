@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="assets/banner.png" alt="Speech Emotion Recognition Banner" width="100%">
+</p>
 # 🎙️ Cross-Dataset Speech Emotion Recognition Using Deep Learning Models
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
