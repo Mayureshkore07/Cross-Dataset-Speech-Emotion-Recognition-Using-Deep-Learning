@@ -24,6 +24,25 @@ Rather than focusing on a single model, this repository documents the complete r
 
 ---
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Project Highlights](#-project-highlights)
+- [Features](#-features)
+- [Project Workflow](#-project-workflow)
+- [Project Organization](#-project-organization)
+- [Datasets](#-datasets)
+- [Research Experiments](#-research-experiments)
+- [Final Models](#-final-models)
+- [Model Performance](#-model-performance)
+- [Experimental Results](#-experimental-results)
+- [Installation](#️-installation)
+- [Getting Started](#-getting-started)
+- [Technologies Used](#-technologies-used)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+- [License](#-license)
+
 # 🚀 Project Highlights
 
 * 🎙️ Cross-Dataset Speech Emotion Recognition using **RAVDESS** and **CREMA-D**
