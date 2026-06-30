@@ -1,5 +1,13 @@
 # 🎙️ Cross-Dataset Speech Emotion Recognition Using Deep Learning Models
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Librosa](https://img.shields.io/badge/Librosa-Audio%20Processing-green)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 > A comprehensive Speech Emotion Recognition (SER) project that investigates multiple Machine Learning, Deep Learning, Domain Adaptation, and Transformer-based architectures using the **RAVDESS** and **CREMA-D** datasets. The project focuses on evaluating different approaches for cross-dataset emotion recognition and identifying robust models for real-world speech emotion classification.
 
 ---
